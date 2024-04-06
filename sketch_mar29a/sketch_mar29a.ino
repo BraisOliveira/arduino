@@ -41,7 +41,7 @@ void loop() {
   if(buttonState2 == HIGH) {
     char txtStarShipA[] = "Falcon Heavy";
     char txtStarShipB[] = "SpaceX - 2018";
-    digitalWrite(ledPin11, HIGH);
+    digitalWrite(ledPin11, HIGH); 
     lcd.clear();
     lcd.setCursor(0,0);
     lcd.print(txtStarShipA);
