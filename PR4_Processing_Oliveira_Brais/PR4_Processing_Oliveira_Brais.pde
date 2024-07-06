@@ -28,7 +28,7 @@ if (sensorValue > 200 & sensorValue < 401) {
     fill(255, 255, 0);
   }
   
-if (sensorValue < 400) {                
+if (sensorValue > 400) {                
     text("Sensor Value: " + sensorValue, 10, 30);
     circle(200, 300, 300);
     fill(255, 0, 0);
