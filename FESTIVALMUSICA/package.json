@@ -1,0 +1,14 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Investigando SAAS / NPM",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css"
+  },
+  "author": "Brais Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.6"
+  }
+}
